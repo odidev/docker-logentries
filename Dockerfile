@@ -2,7 +2,7 @@
 #
 # VERSION 0.2.0
 
-FROM node:0.12-onbuild
+FROM node:lts-alpine3.14
 MAINTAINER Rapid 7 - InsightOps <InsightOpsTeam@rapid7.com>
 
 WORKDIR /usr/src/app
